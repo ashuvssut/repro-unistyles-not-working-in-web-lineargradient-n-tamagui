@@ -28,5 +28,8 @@
   },
   "[javascript]": {
     "editor.defaultFormatter": "prettier.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "prettier.prettier-vscode"
   }
 }

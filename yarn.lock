@@ -8516,6 +8516,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"expo-linear-gradient@npm:~15.0.8":
+  version: 15.0.8
+  resolution: "expo-linear-gradient@npm:15.0.8"
+  peerDependencies:
+    expo: "*"
+    react: "*"
+    react-native: "*"
+  checksum: 10/41f2357309bb02720c70c1525a97c325273e0622c91deee15163bb71c45b8d853429f230df5f200d7234ebb76a8a648c3c75db3011de4698573c00fe3e3b6950
+  languageName: node
+  linkType: hard
+
 "expo-linking@npm:~8.0.8":
   version: 8.0.8
   resolution: "expo-linking@npm:8.0.8"
@@ -12504,6 +12515,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-edge-to-edge@npm:^1.7.0":
+  version: 1.7.0
+  resolution: "react-native-edge-to-edge@npm:1.7.0"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 10/26ca09c125ce21b632b1645f23681688630b1bc4d7ad869de74c64328a29fd5300eaf258f1353072016c30a0c236e832e4b19ed42846c48d19898917d4c13112
+  languageName: node
+  linkType: hard
+
 "react-native-is-edge-to-edge@npm:^1.1.6":
   version: 1.1.7
   resolution: "react-native-is-edge-to-edge@npm:1.1.7"
@@ -12521,6 +12542,16 @@ __metadata:
     react: "*"
     react-native: "*"
   checksum: 10/8fb6d8ab7b953c7d7cec8c987cef24f1c5348a293a85cb49c7c53b54ef110c0ca746736ae730e297603c8c76020df912e93915fb17518c4f2f91143757177aba
+  languageName: node
+  linkType: hard
+
+"react-native-nitro-modules@npm:^0.33.1":
+  version: 0.33.1
+  resolution: "react-native-nitro-modules@npm:0.33.1"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 10/2203c124434fffd35a43490e5367039891c8ed4a4fe836f44a4fb0d1166e30afc83f8ce743aa6bd8f6531c4b39b570e671dec5cd5db86c1ddbc5fa4e010e0e32
   languageName: node
   linkType: hard
 
@@ -12574,6 +12605,23 @@ __metadata:
     react: "*"
     react-native: "*"
   checksum: 10/aa7b3a54cf2eb52aeb1322ba4a3f63176d4da0725ea4b9ec0051a59df0a511dc189fd101abf7993e94676c1cdea736e4abb207a0aea6f3083b5982c48e4648ac
+  languageName: node
+  linkType: hard
+
+"react-native-unistyles@npm:^3.0.21":
+  version: 3.0.21
+  resolution: "react-native-unistyles@npm:3.0.21"
+  peerDependencies:
+    "@react-native/normalize-colors": "*"
+    react: "*"
+    react-native: ">=0.76.0"
+    react-native-edge-to-edge: "*"
+    react-native-nitro-modules: "*"
+    react-native-reanimated: "*"
+  peerDependenciesMeta:
+    react-native-reanimated:
+      optional: true
+  checksum: 10/49a57ee289ee8bfabe4a982156464e5ab51f547995a2b026da443a7ba30a2add3344c039b4bd434f40fb7b885be7ce46f83290adbe76ed3c85419f257d9af112
   languageName: node
   linkType: hard
 
@@ -12977,6 +13025,7 @@ __metadata:
     expo: "npm:^54.0.23"
     expo-build-properties: "npm:~1.0.9"
     expo-font: "npm:~14.0.9"
+    expo-linear-gradient: "npm:~15.0.8"
     expo-linking: "npm:~8.0.8"
     expo-router: "npm:~6.0.14"
     expo-splash-screen: "npm:~31.0.10"
@@ -12986,10 +13035,13 @@ __metadata:
     react: "npm:19.1.0"
     react-dom: "npm:19.1.0"
     react-native: "npm:0.81.5"
+    react-native-edge-to-edge: "npm:^1.7.0"
+    react-native-nitro-modules: "npm:^0.33.1"
     react-native-reanimated: "npm:~4.1.1"
     react-native-safe-area-context: "npm:~5.6.0"
     react-native-screens: "npm:~4.16.0"
     react-native-svg: "npm:15.12.1"
+    react-native-unistyles: "npm:^3.0.21"
     react-native-web: "npm:^0.21.0"
     react-native-worklets: "npm:0.5.1"
     tamagui: "npm:^1.144.2"
