@@ -1,11 +1,17 @@
 # unistyles-web-styling-issue
 
-Unistyles web styling is not working for Expo LinearGradient and Tamagui components
+Unistyles styling does not work on the web for **Expo `LinearGradient`** and **Tamagui** components, while the same code works correctly on native platforms.
 
-## DEMO SCREENSHOTS
+## Demo Screenshots
 
-1. Unistyles is NOT working in web for Expo LinearGradient component and Tamagui components
-  ![image]('./z-web.png')
+### 1. Web (Not Working)
 
-2. Working perfectly in Android Emulator
-  ![image]('./z-android.png')
+Unistyles styles are **not applied** to Expo `LinearGradient` and Tamagui components on the web.
+
+<img src="./z-web.png" alt="Web issue screenshot" height="700" />
+
+### 2. Android (Working)
+
+The same components and styles work **as expected** on the Android emulator.
+
+<img src="./z-android.png" alt="Android working screenshot" height="700" />
